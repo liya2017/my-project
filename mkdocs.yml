@@ -1,0 +1,28 @@
+site_name: My Docs
+
+# Page tree
+nav:
+    - Home: index.md
+    - About: about.md
+# Documentation and theme
+
+extra_css:
+  - stylesheets/extra.css
+
+
+# # Documentation and theme
+theme: 
+  name: material
+  analytics:
+        gtag: G-ABC123
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
